@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: linear-gradient(120grad, #643986, #98aed5);
+}
+.container,.scontainer{
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin:15% 10% 5% 15%;
+  color:#fff;
+}
+input[type="text"],input[type="password"]{
+  border:none;
+  background:none;
+  border-bottom: 2px solid red;
+  outline:none;
+  color:#fff;
+  width:80%;
+  padding:2%;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+  background:none;
+  outline:transparent!important;
+  box-shadow: 0px 0px 15px 0px rgba(250,147,147,1);
+}
+i{
+  position: relative;
+  left:-5%;
+}
+.btn{
+  color:white;
+  border:1px solid violet;
+  float: right;
+  margin-right:8%;
+}
+.fa-key{
+  cursor: pointer;
+}
+.btn:hover{
+  background: #fff;
+  color:violet;
+  border:1px solid red;
+}
+a{
+  text-decoration: none;
+  color:#ccc;
+}
+.signtologin{
+  animation: login 3s forwards;
+}
+.logintosign{
+  animation: signup 3s forwards;
+}
+@keyframes login {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes signup {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container,.scontainer{
+    width: 100%;
+    height: auto;
+    color:#fff;
+  }
+  h1 {
+      padding: 0% 27%;
+  }
+
+}

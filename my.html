@@ -1,0 +1,177 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>NYKS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="stylesmy.css" />
+	<link rel="stylesheet" href="w3.css" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title"><h4><b>NEHRU YUVA KENDRA SANGATHAN</b></h4></span>
+                </span>
+            </div>
+            
+			<div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">HOME</a>
+					<a class="mdl-navigation__link" href="signup.html">SIGN UP</a>
+                    <a class="mdl-navigation__link" href="login.html">LOG IN</a>
+			
+					
+					<a class="mdl-navigation__link" href="https://nyks.nic.in/resources/Circulars.html">CIRCULARS</a>
+					<a class="mdl-navigation__link" href="https://nyks.nic.in/NewInitiatives/NewInitiative.html">INITIATIVES</a>
+                </nav>
+            </div>
+        </header>
+			<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">HOME</a>
+				<a class="mdl-navigation__link" href="index.html">SIGN UP</a>
+		
+                <a class="mdl-navigation__link" href="login.html">LOG IN</a> 
+                <a class="mdl-navigation__link" href="https://nyks.nic.in/resources/Circulars.html">CIRCULARS</a>
+				<a class="mdl-navigation__link" href="https://nyks.nic.in/NewInitiatives/NewInitiative.html">INITIATIVES</a>
+            </nav>
+        </div>
+		
+       <main class="mdl-layout__content">
+		<div class="w3-content w3-section" style="max-width:500px">
+			<img class="mySlides" src="National Integration camp 2019.png" style="width:100% ">
+			<img class="mySlides" src="Youth Festival 2020.png" style="width:100% ">
+			<img class="mySlides" src="Yuva Mandal.png" style="width:100%">
+		</div>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}    
+		x[myIndex-1].style.display = "block";  
+		setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+	
+	<div class="content">
+	<p>
+	
+    <h5><b> What is NYKS?</b></h5>
+	<h6>Nehru Yuva Kendras were established in the year 1972. Later in year 1987 under Rajiv Gandhi Government it became Nehru Yuva Kendra Sangathan (NYKS), an autonomous organization under Ministry of Youth Affairs and Sports, within the Government of India.
+
+		<br>It is largest and unique grassroot level youth organisation in the world, which integrates power of the youth based on the principle of voluntarism, self-help and community participation.
+
+<br>Objectives:
+<br>
+There are two main objectives of NYKS:
+<br>
+1:Provide rural youth avenues toward nation building
+<br>
+2:Provide opportunities to develop their personality and skills.</h6>
+<br>
+<br> 
+<br>
+<h5><b>Vision:</b></h5>
+<br>
+Vision of the organization focuses on developing long term strategies for good citizenship and youth leadership at the grass root level. Youth Clubs are formed and encouraged to participate in sports, cultural and local development activities. Youth leadership is developed in the course of formation and sustenance of youth clubs. This leadership becomes highly useful in creating:-
+<br>
+1.Networks of volunteership.
+<br>
+2.Oppurtunities of participation in fundamental democratic practices of polity and development.
+<br>
+3.Instruments of empowerment of youth like skill-generation, awareness creation about health, life skills, and self employment.	
+	</p>
+	</div>
+		 			
+
+
+               
+				
+<footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Tasks Undertaken</h1>
+	  <li><a href="https://nyks.nic.in/initiatives/Programme.html">Campaigns</a></li>
+      <li><a href="https://nyks.nic.in/project/projects.html">Projects</a></li>
+	  <li><a href="https://nyks.nic.in/schemes/schemes.html">Schemes</a></li>
+	  
+      <ul class="mdl-mega-footer__link-list">
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">About Us</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="https://nyks.nic.in/aboutus/About-nyks.html">Foundation</a></li>
+        <li><a href="https://nyks.nic.in/aboutus/Board-of-Governors.html">Current Leaders</a></li>
+        <li><a href="https://nyks.nic.in/aboutus/Parliamentary-Standing-Committee.html">Committees</a></li>
+      </ul>
+    </div>
+
+   <!-- <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Exams held</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Patterns</a></li>
+        <li><a href="#">Shortlisted Candidates</a></li>
+        <li><a href="#">Oaths</a></li>
+      </ul>
+    </div>
+-->
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Contact Us</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</footer>
+        </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
